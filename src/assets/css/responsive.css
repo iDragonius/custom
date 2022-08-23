@@ -1,0 +1,165 @@
+@media screen and (max-width:1304px){
+    .container {
+        width: 90%;
+    }
+    .search-main{
+        display: none !important;
+    }
+    .search-responsive {
+       display: block !important;
+
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .search-responsive div input{
+        width: 100% !important;
+    }
+    .search-main-l  button {
+        border-bottom-left-radius: 20px ;
+        border-top-left-radius: 20px   ;
+    }
+    footer a {
+        font-size: 1.2rem !important;
+    }
+    footer p {
+        font-size: 1.2rem !important;
+    }
+    footer h6 {
+        font-size: 1.5rem !important;
+    }
+    .owl-nav {
+        display: none !important;
+    }
+    .footer-contact p{
+        width: 70%  !important;
+    }
+    .categories {
+        overflow-x: auto
+    }
+    .more-cat {
+        display: none !important;
+    }
+}
+@media screen and (max-width:1020px){
+    .restaurant-item {
+        width: 49% !important;
+    }
+    .restaurant-item  img {
+        width: 100% !important;
+    }
+    .restaurant-item div {
+        width: 100% !important;
+    }
+}
+@media screen and (max-width:936px){
+
+    .responsive-nav {
+        display: none !important;
+    }
+}
+@media screen and (min-width:760px){
+    .logo-responsive{
+        display: none;
+    } 
+    .responsive-footer {
+        display: none !important;
+    }
+}
+@media screen and (max-width:760px){
+    .footer-main {
+        display: none !important;
+    }
+    .responsive-footer {
+        display: block !important;
+    }
+    .responsive-footer .footer-info {
+        display: block !important;
+        width: 70% !important;
+    }
+    .responsive-footer > div {
+        display: flex;
+        justify-content: space-between;
+    }
+    .store-type-item  span {
+        font-size: 1.2rem;
+    }
+    .store-type {
+        align-items: center;
+    }
+    .store-type-item {
+        margin-right: 10px !important;
+    }
+
+    .logos{
+        display: none !important;
+    }
+    .restaurant-item {
+        width: 99% !important;
+    }
+    .restaurant-item  img {
+        width: 100% !important;
+    }
+    .restaurant-item div {
+        width: 100% !important;
+    }
+    .restaurant-items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+@media screen and (max-width:485px)
+{
+    .store-type-item {
+        padding: 8px 10px !important;
+        border-radius: 8px !important;
+        margin-right: 8px !important;
+        cursor: pointer !important;
+    }
+    .store-type-item span {
+        font-size: 1.2rem !important;
+    }
+}
+@media screen and (max-width:400px){
+    .responsive-footer > div {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .sc  {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-info {
+        width: 100%   !important;
+    }
+
+    .search-main-l button {
+        width: 90% !important ;
+    }
+    .loc-icon {
+        display: none !important;
+    }
+    .categories-list {
+        padding-top: 25px !important;
+    }
+} 
+@media screen and (max-width:660px){
+    .footer-logo {
+        flex-direction: column;
+        align-items: left !important;
+        justify-content: left !important;
+    }
+}
+@media screen and (max-width:560px){
+
+    .search-main-l {
+        width: 90% !important;
+    }
+}
+@media screen and (min-width:1305px){
+    .search-responsive{
+        display: none !important;
+    }
+}

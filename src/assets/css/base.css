@@ -1,0 +1,47 @@
+:root {
+    --secondary:#9497AA;
+    --yellow-clr:#FFA800;
+    --red-clr:#FF5012;
+    --primary: #171819;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+html {
+    font-size: 10px;
+}
+
+/* @font-face {
+    font-family: Helvetica, Arial;
+    src: url(../fonts/Helvetica-Neue-Font/Helvetica\ Neue\ Medium\ Extended/);
+} */
+
+
+h1,h2,h3,h4,h5,h6{
+    font-family: Helvetica;
+
+}
+ul,ol {
+    list-style-type: none;
+
+}
+
+p,a, span, ol,ul,li, div {
+    font-family: Helvetica;
+}
+.container {
+    width: 1305px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: flex;
+}
+
